@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #E11D48; /* Accent Rose */
+  --color-brand-red-dark: #BE123C;
+  --color-brand-black: #0F172A; /* Slate 900 - Softer than pure black */
+  --color-brand-white: #FFFFFF;
+  --color-brand-gray: #F8FAFC; /* Slate 50 */
+  
+  --font-sans: "Inter", sans-serif;
+
+  --animate-marquee: marquee 40s linear infinite;
+
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-33.33%); }
+  }
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-brand-white text-brand-black antialiased selection:bg-brand-red selection:text-white;
+    letter-spacing: -0.01em;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-2xl border border-slate-100;
+  }
+  .shadow-soft {
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.06);
+  }
+  .shadow-soft-hover {
+    box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1);
+  }
+}
