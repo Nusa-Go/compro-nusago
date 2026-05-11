@@ -108,8 +108,8 @@ export default function Footer() {
               {[
                 { icon: 'ri:instagram-line', link: 'https://www.instagram.com/nusagoofficial?igsh=anA3OWhpMjBsczh5&utm_source=qr' },
                 { icon: 'ri:facebook-circle-line', link: 'https://www.facebook.com/share/18eqKnNGfr/?mibextid=wwXIfr' },
-                { icon: 'ri:twitter-x-line', link: 'x.com/Nusagoofficial' },
-                { icon: 'ri:linkedin-box-line', link: 'linkedin.com/company/pt-nusago-digital-travelindo' }
+                { icon: 'ri:twitter-x-line', link: 'https://x.com/Nusagoofficial' },
+                { icon: 'ri:linkedin-box-line', link: 'https://www.linkedin.com/company/pt-nusago-digital-travelindo' }
               ].map((social, idx) => (
                 <a
                   key={idx}
