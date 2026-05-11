@@ -91,6 +91,14 @@ const translations = {
 
     // Footer
     "footer.help": "Help Center",
+    "footer.address": "Yogyakarta, Indonesia",
+    "footer.nav_title": "Navigation",
+    "footer.sub_title": "Be Our Subscribers",
+    "footer.sub_desc": "Get latest update regarding our services and exclusive promos.",
+    "footer.sub_button": "Submit",
+    "footer.follow": "Follow Us",
+    "nav.services": "Services",
+    "nav.features": "Feature",
 
     // Language
     "lang.id": "ID",
@@ -190,6 +198,14 @@ const translations = {
 
     // Footer
     "footer.help": "Pusat Bantuan",
+    "footer.address": "Yogyakarta, Indonesia",
+    "footer.nav_title": "Navigasi",
+    "footer.sub_title": "Berlangganan",
+    "footer.sub_desc": "Dapatkan update terbaru mengenai layanan dan promo eksklusif kami.",
+    "footer.sub_button": "Kirim",
+    "footer.follow": "Ikuti Kami",
+    "nav.services": "Layanan",
+    "nav.features": "Fitur",
 
     // Language
     "lang.id": "ID",
