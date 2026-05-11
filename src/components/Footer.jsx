@@ -58,7 +58,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail size={18} className="text-brand-red shrink-0" />
-                  <span>hello@nusago.id</span>
+                  <span>nusagoofficial@email.com</span>
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Footer() {
               <div className="relative">
                 <input
                   type="email"
-                  placeholder="example@email.com"
+                  placeholder="nusagoofficial@email.com"
                   className="w-full bg-white border-2 border-slate-100 py-4 pl-5 pr-28 rounded-2xl text-[13px] font-bold outline-none focus:border-brand-red/30 transition-all shadow-sm font-roboto"
                 />
                 <button className="absolute right-2 top-2 bg-[#0F172A] text-white px-6 py-2.5 rounded-xl text-[12px] font-bold hover:bg-brand-red transition-all active:scale-95 shadow-lg">
@@ -106,10 +106,10 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <span className="text-[12px] font-bold text-slate-400 mr-2">{t('footer.follow')}</span>
               {[
-                { icon: 'ri:instagram-line', link: '#' },
-                { icon: 'ri:facebook-circle-line', link: '#' },
-                { icon: 'ri:twitter-x-line', link: '#' },
-                { icon: 'ri:linkedin-box-line', link: '#' }
+                { icon: 'ri:instagram-line', link: 'https://www.instagram.com/nusagoofficial?igsh=anA3OWhpMjBsczh5&utm_source=qr' },
+                { icon: 'ri:facebook-circle-line', link: 'https://www.facebook.com/share/18eqKnNGfr/?mibextid=wwXIfr' },
+                { icon: 'ri:twitter-x-line', link: 'x.com/Nusagoofficial' },
+                { icon: 'ri:linkedin-box-line', link: 'linkedin.com/company/pt-nusago-digital-travelindo' }
               ].map((social, idx) => (
                 <a
                   key={idx}
