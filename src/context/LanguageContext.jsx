@@ -115,7 +115,7 @@ const translations = {
     "nav.partner": "Jadi Partner",
     "nav.login": "Masuk",
     "nav.register": "Daftar",
-    "nav.get_app": "Dapatkan Aplikasinya",
+    "nav.get_app": "Unduh Aplikasinya",
 
     // Hero Section
     "hero.subtitle":
