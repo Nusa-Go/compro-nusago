@@ -27,11 +27,11 @@ export default function Hero() {
     <section id="home" className="relative w-full bg-white overflow-hidden font-sans scroll-mt-20">
 
       {/* GAMBAR HERO — hanya tampil di desktop sebagai absolute */}
-      <div className="hidden lg:flex absolute right-0 top-0 h-[100dvh] w-[45vw] xl:w-[48vw] z-0 pointer-events-none justify-end items-center overflow-hidden">
+      <div className="hidden lg:flex absolute right-0 top-0 h-[100dvh] w-[45vw] xl:w-[50vw] z-0 pointer-events-none justify-end items-center overflow-hidden">
         <img
           src={heroImage}
           alt="Hero NusaGo"
-          className="w-full h-[85%] object-contain object-[right_center] xl:translate-x-8"
+          className="w-full h-[85%] object-contain object-[right_center] xl:translate-x-4 origin-right"
         />
         <div className="absolute inset-y-0 left-0 w-32 lg:w-48 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
       </div>
@@ -100,12 +100,12 @@ export default function Hero() {
               </a>
             </div>
 
-            {/* Tombol Join With Us — mobile only (dipindah ke kanan untuk desktop) */}
+            {/* Tombol Join With Us — mobile only */}
             <a
               href="https://partner.nusago.id"
               target="_blank"
               rel="noreferrer"
-              className="lg:hidden mt-8 flex items-center self-start bg-[#1A1A1A] rounded-full p-1.5 pr-8 hover:-translate-y-1 transition-all duration-300 shadow-2xl group relative z-10"
+              className="lg:hidden mt-6 flex items-center self-start bg-[#1A1A1A] rounded-full p-1.5 pr-8 hover:-translate-y-1 transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.15)] group relative z-10 w-fit"
             >
               <div className="bg-[#B30000] w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-inner">
                 <Rocket size={18} className="text-white fill-white" />
@@ -117,14 +117,14 @@ export default function Hero() {
           </div>
 
           {/* SISI KANAN: Tombol Join With Us — desktop */}
-          <div className="hidden lg:flex lg:col-span-5 relative h-full flex-col justify-end items-end pointer-events-none z-20 pb-0">
+          <div className="hidden lg:flex lg:col-span-5 relative h-full flex-col justify-end items-end pointer-events-none z-20 pb-2">
             <a
               href="https://partner.nusago.id"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center bg-[#1A1A1A] rounded-full p-1 pr-6 hover:-translate-y-1 transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.15)] pointer-events-auto group mt-auto mr-2 lg:-mb-2"
+              className="flex items-center bg-[#1A1A1A] rounded-full p-1 pr-6 hover:-translate-y-1 transition-all duration-300 shadow-[0_20px_40px_rgba(0,0,0,0.15)] pointer-events-auto group mt-auto mr-2"
             >
-              <div className="bg-[#B30000] w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+              <div className="bg-[#B30000] w-10 h-10 lg:w-11 lg:h-11 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-inner">
                 <Rocket size={18} className="text-white fill-white" />
               </div>
               <span className="text-white font-bold text-[13px] lg:text-[14px] ml-3 tracking-wide">
